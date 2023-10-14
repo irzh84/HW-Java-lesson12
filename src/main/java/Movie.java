@@ -10,11 +10,10 @@ public class Movie {
     private String movieTitle;
     private String genre;
 
-    public Movie (int id, String movieTitle, String genre) {
+    public Movie(int id, String movieTitle, String genre) {
         this.id = id;
         this.movieTitle = movieTitle;
         this.genre = genre;
-
     }
 }
 

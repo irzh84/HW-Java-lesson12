@@ -5,6 +5,7 @@ public class PosterManager {
     public PosterManager() {
         this.limit = 5;
     }
+
     public PosterManager(int limit) {
         this.limit = limit;
     }
@@ -15,8 +16,7 @@ public class PosterManager {
             tmp[i] = items[i];
         }
         tmp[tmp.length - 1] = item;
-        items = tmp;
-
+        this.items = tmp;
     }
 
     public Movie[] findAll() {
@@ -36,5 +36,4 @@ public class PosterManager {
         }
         return tmp;
     }
-
 }
